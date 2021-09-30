@@ -8,16 +8,13 @@ import { DatepickerComponent } from '../datepicker/datepicker.component';
   styleUrls: ['./new-patient.component.css']
 })
 export class NewPatientComponent implements OnInit {
-  datepicker: DatepickerComponent;
-  model!: NgbDateStruct;
-  constructor(datepicker: DatepickerComponent) {
-    this.datepicker = datepicker;
-  }
-
   ngOnInit(): void {
-    this.model = this.datepicker.model
   }
+  title = 'appBootstrap';
 
+  model: string | undefined;
+
+  constructor() {}
 
 
 }

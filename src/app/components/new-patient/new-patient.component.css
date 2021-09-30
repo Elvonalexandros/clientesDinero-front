@@ -1,0 +1,19 @@
+
+.formContenedor{
+  background-color: #007bff;
+  font-size: small;
+  border: 1px #03468f solid;
+  padding: 3%;
+  padding-left: 7%;
+  color: white;
+}
+.text-muted{
+  color: white !important;
+  font-style: italic;
+}
+.inputrebelde{
+  width: 50%;
+}
+.enviar{
+width: 56%;
+}
